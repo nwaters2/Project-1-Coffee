@@ -1,5 +1,85 @@
-
 /*
   STYLESHEET:
 	selector { property:value }
 */
+
+@import url('https://fonts.googleapis.com/css?family=Lato: 100,200,300,400,500,600, cursive|Lemonada: 100,200,300,400,500,600, cursive|Raleway: 200,300,400,500,600, cursive');
+header {
+  height: 50px;
+  font-family: 'Lato', cursive;
+  font-size: 1.5rem;
+  background-color: #2371e7;
+  text-align: center;
+  padding: 10px;
+}
+
+main {}
+
+h1 {
+  margin: 0;
+  color: #4b3434;
+}
+
+h2 {
+  color: #e88014;
+  font-family: 'Lemonada', 'Lato', cursive;
+  font-size: 1.2rem;
+}
+
+p {
+  color: #3a3b3a;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+
+/* Why will the footer font link not change?
+
+  Can you do a relative image path for list-style-image?
+
+
+
+*/
+
+footer {
+  height: 40px;
+  background-color: #948886;
+  text-align: justify;
+  padding: 30px;
+  font-family: 'Lato' 200, 'Lemonada' 300, cursive;
+  font-size: 1rem;
+  color: inherit;
+}
+
+.wrapper {
+  width: 600px;
+  height: auto;
+  margin: auto;
+}
+
+hr.secDiv {
+  border: 1px solid #000;
+  margin: auto;
+  border-bottom: 10px;
+}
+
+#image {
+  line-height: 1.5em;
+  list-style-image: inherit;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: purple;
+}
