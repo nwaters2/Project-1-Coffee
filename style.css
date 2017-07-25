@@ -13,7 +13,9 @@ header {
   padding: 10px;
 }
 
-main {}
+main {
+
+}
 
 h1 {
   margin: 0;
@@ -30,6 +32,16 @@ p {
   color: #3a3b3a;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
+}
+
+img {
+  width: 100%;
+  border: 10px solid gray;
+  border-radius: 4px;
+}
+
+img:hover {
+  box-shadow: 10px 5px 5px black;
 }
 
 
@@ -63,9 +75,8 @@ hr.secDiv {
   border-bottom: 10px;
 }
 
-#image {
+ul {
   line-height: 1.5em;
-  list-style-image: inherit;
 }
 
 a:link {
